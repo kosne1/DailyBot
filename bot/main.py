@@ -1,10 +1,10 @@
 import asyncio
 
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
-
 from app import bot
 
-# import app.handlers
+import app.handlers
+
 scheduler = AsyncIOScheduler()
 
 
